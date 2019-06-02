@@ -1,0 +1,12 @@
+{
+  "name": "wcastand.tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gitfolio build wcastand --sort star --theme dark"
+  },
+  "dependencies": {
+    "gitfolio": "^0.1.4"
+  }
+}
