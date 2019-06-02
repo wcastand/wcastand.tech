@@ -3,8 +3,8 @@
   "username": "wcastand",
   "name": "William",
   "userimg": "https://avatars3.githubusercontent.com/u/2178244?v=4",
-  "sort": "star",
-  "order": "asc",
+  "sort": "created",
+  "order": "desc",
   "includeFork": false,
   "theme": "dark.css"
  }

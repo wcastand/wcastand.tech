@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "gitfolio build wcastand --sort star --theme dark"
+    "start": "yarn build && gitfolio run",
+    "build": "gitfolio build wcastand --sort created --order desc --theme dark",
+    "deploy": "cp dist/* . &&now --target=production"
   },
   "dependencies": {
     "gitfolio": "^0.1.4"
